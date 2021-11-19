@@ -1,0 +1,26 @@
+{
+  "name": "2048-3d",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/scr/main.js",
+  "scripts": {
+    "start": "electron ./scr/main.js",
+    "build": "electron-packager ."
+  },
+  "author": "Spade",
+  "license": "ISC",
+  "dependencies": {
+    "babylonjs": "^4.1.0",
+    "babylonjs-gui": "^4.1.0",
+    "babylonjs-loaders": "^4.1.0",
+    "babylonjs-materials": "^4.1.0",
+    "babylonjs-post-process": "^4.1.0",
+    "babylonjs-procedural-textures": "^4.1.0",
+    "babylonjs-viewer": "^4.1.0",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "electron": "^8.5.0",
+    "electron-packager": "^15.1.0"
+  }
+}
